@@ -20,6 +20,8 @@ According to our results, vehicle lenghth and ground clearance and (as well as i
 R-squared:  0.7149 which means this linear model predict mpg of MechaCar prototypes effectively
 
 **## Summary Statistics on Suspension Coils**
+
+
 Total Summary:
 ![Total Summary](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png)
 
