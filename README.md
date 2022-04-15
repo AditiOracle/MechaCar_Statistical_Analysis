@@ -1,6 +1,6 @@
 
 **## Linear Regression to Predict MPG**
-
+![](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_1_lm.png)
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
 \- In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model.
@@ -18,10 +18,18 @@ According to our results, vehicle lenghth and ground clearance and (as well as i
 R-squared:  0.7149 which means this linear model predict mpg of MechaCar prototypes effectively
 
 **## Summary Statistics on Suspension Coils**
+Total Summary:
+![Total Summary](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png)
+
+Lot Summary:
+![Lot Summary](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png)
+
 
 In this analysis, the data is normally distributed because mean and median are identical. 
 
 Also, A standard deviation (or σ) is a measure of how dispersed the data is in relation to the mean. Low standard deviation means data are clustered around the mean, and high standard deviation indicates data are more spread out. A standard deviation close to zero indicates that data points are close to the mean, whereas a high or low standard deviation indicates data points are respectively above or below the mean. In this scenario, the curve on top is more spread out and therefore has a higher standard deviation, while the curve below is more clustered around the mean and therefore has a lower standard deviation.
+
+![bell_curve](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/bell_curve.png)
 
 **Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
@@ -35,17 +43,29 @@ Also, A standard deviation (or σ) is a measure of how dispersed the data is in 
 
 *- t.test() function to determine if the PSI across all manufacturing lots*
 
+t.test_all_Manufacturing_Lots
+![t.test_all_Manufacturing_Lots](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_all_lots.png)
+
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value (0.06028) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT1 manufacturing lot*
+
+t.test_Lot_1
+![t.test_Lot_1](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot1.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value (1) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT2 manufacturing lot*
 
+t.test_Lot_2
+![t.test_Lot_2](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot2.png)
+
 Assuming our significance level was the common 0.05 percent, our p-value (0.6072) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT3 manufacturing lot*
+
+t.test_Lot_3
+![t.test_Lot_3](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot3.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value (0.04168) is below our significance level. Therefore, our Null Hypothesis is not true, and we would state that the two means are statistically different. We can reject Null hypothesis
 
