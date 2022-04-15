@@ -1,6 +1,8 @@
 
 **## Linear Regression to Predict MPG**
+
 ![](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_1_lm.png)
+
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
 \- In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model.
