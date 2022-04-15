@@ -47,28 +47,28 @@ Also, A standard deviation (or σ) is a measure of how dispersed the data is in 
 
 *- t.test() function to determine if the PSI across all manufacturing lots*
 
-t.test_all_Manufacturing_Lots
+
 ![t.test_all_Manufacturing_Lots](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_all_lots.png)
 
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value (0.06028) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT1 manufacturing lot*
 
-t.test_Lot_1
+
 ![t.test_Lot_1](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot1.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value (1) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT2 manufacturing lot*
 
-t.test_Lot_2
+
 ![t.test_Lot_2](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot2.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value (0.6072) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. We failed to reject the Null hypothesis.
 
 *- t.test() to determine if the PSI across LOT3 manufacturing lot*
 
-t.test_Lot_3
+
 ![t.test_Lot_3](https://github.com/AditiOracle/MechaCar_Statistical_Analysis/blob/main/Resources/t_test_Lot3.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value (0.04168) is below our significance level. Therefore, our Null Hypothesis is not true, and we would state that the two means are statistically different. We can reject Null hypothesis
